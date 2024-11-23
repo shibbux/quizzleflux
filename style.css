@@ -1,27 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: 'Poppins', sans-serif;
   background-image: url(background.png);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .container {
-  width: 450px;
-  padding: 20px;
-  margin-top: 80px;
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  font-size: 124%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    margin-top: 80px;
+    background: rgba(157, 0, 255, 0.778);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    text-align: center;
+    box-shadow: 0 73px 91px 45px rgba(206, 101, 229, 0.923);
+    border-radius: 20px;
 }
 
 h1 {
-  
+  color: bisque;
   text-align: center;
 }
+
 
 .question {
   font-weight: bold;
@@ -29,6 +41,11 @@ h1 {
 }
 
 .options {
+  padding-left: 119px;
+  align-items: start;
+  flex-direction: column;
+  display: flex
+;
   margin-bottom: 20px;
 }
 
@@ -39,27 +56,64 @@ h1 {
 
 .button {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #3dd1e0;
+  padding: 34px 102px;
+  background-color: #3d58e0;
   color: #fff;
   border: none;
   cursor: pointer;
   font-size: 16px;
   border-radius: 4px;
-  transition: background-color 0.3s;
+  transition: background-color 0.5s;
+  transition: font-size 0.5s;
   margin-right: 10px;
 }
 
 .button:hover {
-  background-color: #35919a;
+  
+  box-shadow: 0 0px 103px 45px rgba(135, 229, 101, 0.777);
+  background-color: #74fce8;
+  padding: 36px 105px;
+  font-size: 30px;
+  box-shadow: 20px #3dd1e0 inset;
 }
 
 .result {
   text-align: center;
-  margin-top: 20px;
-  font-weight: bold;
+  /* font-weight: bold; */
+  
 }
+
 
 .hide{
   display: none;
 }
+
+.question-counter {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  transform: scale(2.4); 
+  margin-right: 50px; 
+}
+
+p{
+  font-size: 3vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+a{
+  text-decoration: none;
+  color: rgb(207, 209, 59);
+  font-size: 4vh;
+}
+a:hover{
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f05729;
+  font-size: 5vh;
+
+}
+
