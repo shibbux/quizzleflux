@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    /* background-image: url('background.png'); */
+    background: linear-gradient(to right, #5ffff7, #3e5bdd);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -16,12 +17,13 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(55, 0, 255, 0.507);
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    max-width: 400px;
+    box-shadow: 0 8px 16px rgba(245, 0, 0, 0.658);
+    /* max-width: 400px; */
     width: 100%;
+
 }
 
 h1 {
@@ -42,10 +44,27 @@ button {
     font-size: 1.1rem;
     border-radius: 25px;
     cursor: pointer;
+    background: linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgb(111, 40, 224) 50%, rgba(252, 176, 69, 1) 100%);
+
     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(43, 174, 226, 0.514);
+    padding: 5px;
+    border-radius: 10px;
 }
 
 button:hover {
     background-color: #ff8a65;
     transform: scale(1.05);
+    box-shadow: 0 0px 103px 45px rgba(135, 229, 101, 0.777);
+  
+}
+
+#quiz {
+    display: flex;
+
 }
