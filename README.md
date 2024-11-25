@@ -1,12 +1,12 @@
 # 🎯 Quizzleflux - Interactive Quiz Application
 
-![Demo video](https://i.imgur.com/3RF2teL_lq.mp4?maxwidth=520&shape=thumb&fidelity=high)
-![Quizzleflux Screenshot](https://i.imgur.com/mlUdUhC_d.png?maxwidth=520&shape=thumb&fidelity=high)
+
+![Quizzleflux Screenshot](https://i.imgur.com/qKGfLs6_d.png?maxwidth=520&shape=thumb&fidelity=high)
 
 ## 🌟 Overview
 
 Quizzleflux is an engaging and dynamic quiz application that challenges users with a variety of interesting questions across different topics. With its beautiful gradient interface and smooth animations, it provides an enjoyable learning experience!
-
+![Demo video](https://i.imgur.com/cEhVJnR.gif)
 ## ✨ Features
 
 - 🎲 Random question selection from a large pool
