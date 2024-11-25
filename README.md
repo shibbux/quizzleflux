@@ -1,6 +1,6 @@
 # 🎯 Quizzleflux - Interactive Quiz Application
 
-![Demo video](https://i.imgur.com/3RF2teL_lq.mp4)
+![Demo video](https://i.imgur.com/3RF2teL_lq.mp4?maxwidth=520&shape=thumb&fidelity=high)
 ![Quizzleflux Screenshot](https://i.imgur.com/mlUdUhC_d.png?maxwidth=520&shape=thumb&fidelity=high)
 
 ## 🌟 Overview
@@ -20,7 +20,7 @@ Quizzleflux is an engaging and dynamic quiz application that challenges users wi
 
 ## 🚀 Live Demo
 
-[Check out the live demo here](your_demo_url_here)
+[Check out the live demo here](https://quizzleflux.netlify.app/)
 
 ## 🛠️ Technologies Used
 
